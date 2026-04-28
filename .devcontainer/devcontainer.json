@@ -1,0 +1,13 @@
+{
+  "name": "Swift Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "swift --version",
+  "extensions": [
+    "vknabel.vscode-swift-development-environment"
+  ]
+}
